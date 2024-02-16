@@ -1,0 +1,128 @@
+* {
+    text-decoration-color:antiquewhite 
+} 
+.header-sectional {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    clear: both;
+    flex-direction: column;
+    background-color: rgb(11, 147, 156);
+    border-radius: 25%;
+    font-size:x-large;
+    text-shadow:0 0 3px #FF0000, 0 0 5px #4508ed;
+}
+header{
+    display: flex;
+}
+.nav {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    clear: both;
+    font-size: larger;
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
+    background-color: darkcyan;
+}  
+.sectional {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-style:dotted;
+    text-align: center;
+    border-width: 1px;
+}
+.Samples-of-work {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    background-color: chocolate;
+    border-radius: 20%;
+}
+.Boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-style: dashed;
+    border-width: 1px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.SamplesOne {
+    display:inline-block;
+    flex-direction: row;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    justify-content: left;
+    font-size: large;
+    font-weight: bolder;
+}
+.SamplesTwo {
+    display:inline-block; 
+    flex-direction: row;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    justify-content: left;
+    font-size: large;
+    font-weight: bolder;
+}
+.SamplesThree {
+    display:inline-block; 
+    flex-direction: row;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    justify-content: left;
+    font-size: large;
+    font-weight: bolder;
+}
+.footer-sectional {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.text-input {
+    font-family: Arial, Helvetica, sans-serif;
+    text-overflow: ellipsis;
+    flex-wrap: wrap;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    margin: 0%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+footer {
+    text-align: center;
+    font-size: large;
+}
